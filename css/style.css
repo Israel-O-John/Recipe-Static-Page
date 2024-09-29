@@ -1,0 +1,222 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+}
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+p,h1,h2,h3,h4,h5 {
+    overflow-wrap: break-word;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: hsl(30, 54%, 90%);
+}
+
+.container {
+    width: 70%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding: 2%;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.main-para {
+    font-size: 1rem;
+}
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.img img {
+    border-radius: 12px;
+}
+
+h1 {
+    color: hsl(24, 5%, 18%);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+p, li {
+    color: hsl(30, 10%, 34%);
+}
+
+h1,h3,h4,h5 {
+    font-family: "Young Serif", serif;
+}
+h2, p, li {
+    font-family: "Outfit", sans-serif;
+}
+.preparation {
+    width: 98%;
+    justify-content: center;
+    margin: auto;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: hsl(330, 100%, 98%);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.preparation li {
+    padding-left: 20px;
+    padding-bottom: 8px;
+}
+
+.preparation li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.preparation h2 {
+    font-size: 1.2rem;
+    color: hsl(332, 51%, 32%);
+    padding-left: 20px;
+}
+.ingredients {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.ingredients h3 {
+    font-size: 1.8rem;
+    padding-left: 20px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+}
+
+.ingredients li {
+    padding-bottom: 8px;
+    padding-left: 25px;
+}
+
+.ingredients li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.instructions {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.instructions h4 {
+    font-size: 1.8rem;
+    padding-left: 18px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+}
+
+.instructions li {
+    padding-left: 20px;
+    padding-bottom: 8px;
+}
+
+.instructions li::marker {
+    color: hsl(14, 45%, 36%); 
+    font-weight: 600;
+}
+
+.nuritions {
+    display: flex;
+    flex-direction: column;
+    gap: 12px; 
+}
+
+.nuritions h5 {
+    font-size: 1.8rem;
+    padding-left: 18px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+}
+
+.nuritions p {
+    padding-left: 18px;
+}
+
+hr {
+    background: hsl(30, 18%, 87%);
+    opacity: 0.3;
+}
+
+.nutritional-values {
+    display: flex;
+    gap: 35%;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.grams {
+    font-weight: 800;
+    color: hsl(14, 45%, 36%);
+}
+
+.zero {
+    margin-left: 18px;
+}
+.twenty {
+    margin-left: 7px;
+}
+.twenty-two {
+    margin-left: 34px;
+}
+
+.attribution {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.attribution a {
+    text-decoration: none;
+}
+
+
+@media(max-width: 450px) {
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    .attribution {
+        font-size: 1rem;
+    }
+
+    .nutritional-values {
+
+        padding-left: 0px;
+    }
+
+    .grams {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+}
