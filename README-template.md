@@ -99,6 +99,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+Thanks to @Steven Stroud for his suggestions that helped improve my HTML sematic and css styling.
+Thanks to @Svitlana Suslenkova for her insight that helped improve my css code.
 
 **Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
